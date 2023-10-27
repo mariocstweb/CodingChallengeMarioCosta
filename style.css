@@ -1,0 +1,83 @@
+*{
+  font-family: sans-serif;
+}
+
+
+body {
+  background-image: url(./img/background.jpg);
+  background-size: cover;
+}
+
+.quadrato {
+  background-color: rgba(0, 0, 0, 0.35);
+  border-radius: 15px;
+  margin-top: 40px;
+  margin-left: 350px;
+  margin-right: 350px;
+  padding: 50px;
+
+}
+
+.box {
+  text-align: center;
+  color: #00DD00;
+  border-left: 10px;
+}
+
+img {
+  width: 250px;
+  height: auto; 
+
+}
+
+.bottoni {
+  text-align: center;
+  background-color: #00DD00;
+  padding: 15px;
+}
+
+button {
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border: none;
+}
+
+button:hover {
+  background-color: #00DD00;
+  color: white;
+}
+
+
+.Monopattino {
+  margin-top: 25px;
+  color: white;
+  line-height: 1.5;
+}
+
+.barra1{
+  width: 265px;
+  height: 20px;
+  background: #F5B453;
+  border-radius: 5px;
+  margin-bottom: 25px;
+}
+
+.barra2{
+  width: 530px;
+  height: 20px;
+  background: #1EC31E;
+  border-radius: 5px;
+  margin-bottom: 25px;
+}
+
+.barra3{
+  width: 132.5px;
+  height: 20px;
+  background: #BE4141;
+  border-radius: 5px;
+  margin-bottom: 25px;
+}
+
+strong {
+  font-size: 24px;
+}
